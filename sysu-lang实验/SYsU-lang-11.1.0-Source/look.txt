@@ -1,0 +1,460 @@
+{
+  "id": "0x1153df8",
+  "kind": "TranslationUnitDecl",
+  "loc": {},
+  "range": {
+    "begin": {},
+    "end": {}
+  },
+  "inner": [
+    {
+      "id": "0x11546b8",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__int128_t",
+      "type": {
+        "qualType": "__int128"
+      },
+      "inner": [
+        {
+          "id": "0x1154390",
+          "kind": "BuiltinType",
+          "type": {
+            "qualType": "__int128"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x1154728",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__uint128_t",
+      "type": {
+        "qualType": "unsigned __int128"
+      },
+      "inner": [
+        {
+          "id": "0x11543b0",
+          "kind": "BuiltinType",
+          "type": {
+            "qualType": "unsigned __int128"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x1154a30",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__NSConstantString",
+      "type": {
+        "qualType": "struct __NSConstantString_tag"
+      },
+      "inner": [
+        {
+          "id": "0x1154800",
+          "kind": "RecordType",
+          "type": {
+            "qualType": "struct __NSConstantString_tag"
+          },
+          "decl": {
+            "id": "0x1154780",
+            "kind": "RecordDecl",
+            "name": "__NSConstantString_tag"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x1154ad8",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__builtin_ms_va_list",
+      "type": {
+        "qualType": "char *"
+      },
+      "inner": [
+        {
+          "id": "0x1154a90",
+          "kind": "PointerType",
+          "type": {
+            "qualType": "char *"
+          },
+          "inner": [
+            {
+              "id": "0x1153e90",
+              "kind": "BuiltinType",
+              "type": {
+                "qualType": "char"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0x1193280",
+      "kind": "TypedefDecl",
+      "loc": {},
+      "range": {
+        "begin": {},
+        "end": {}
+      },
+      "isImplicit": true,
+      "name": "__builtin_va_list",
+      "type": {
+        "qualType": "struct __va_list_tag [1]"
+      },
+      "inner": [
+        {
+          "id": "0x1154d70",
+          "kind": "ConstantArrayType",
+          "type": {
+            "qualType": "struct __va_list_tag [1]"
+          },
+          "size": 1,
+          "inner": [
+            {
+              "id": "0x1154bb0",
+              "kind": "RecordType",
+              "type": {
+                "qualType": "struct __va_list_tag"
+              },
+              "decl": {
+                "id": "0x1154b30",
+                "kind": "RecordDecl",
+                "name": "__va_list_tag"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0x1193338",
+      "kind": "FunctionDecl",
+      "loc": {
+        "offset": 4,
+        "file": "tmp.sysu.c",
+        "line": 1,
+        "col": 5,
+        "tokLen": 3
+      },
+      "range": {
+        "begin": {
+          "offset": 0,
+          "col": 1,
+          "tokLen": 3
+        },
+        "end": {
+          "offset": 23,
+          "line": 3,
+          "col": 1,
+          "tokLen": 1
+        }
+      },
+      "name": "fun",
+      "mangledName": "fun",
+      "type": {
+        "qualType": "int ()"
+      },
+      "inner": [
+        {
+          "id": "0x1193450",
+          "kind": "CompoundStmt",
+          "range": {
+            "begin": {
+              "offset": 9,
+              "line": 1,
+              "col": 10,
+              "tokLen": 1
+            },
+            "end": {
+              "offset": 23,
+              "line": 3,
+              "col": 1,
+              "tokLen": 1
+            }
+          },
+          "inner": [
+            {
+              "id": "0x1193440",
+              "kind": "ReturnStmt",
+              "range": {
+                "begin": {
+                  "offset": 13,
+                  "line": 2,
+                  "col": 3,
+                  "tokLen": 6
+                },
+                "end": {
+                  "offset": 20,
+                  "col": 10,
+                  "tokLen": 1
+                }
+              },
+              "inner": [
+                {
+                  "id": "0x1193420",
+                  "kind": "IntegerLiteral",
+                  "range": {
+                    "begin": {
+                      "offset": 20,
+                      "col": 10,
+                      "tokLen": 1
+                    },
+                    "end": {
+                      "offset": 20,
+                      "col": 10,
+                      "tokLen": 1
+                    }
+                  },
+                  "type": {
+                    "qualType": "int"
+                  },
+                  "valueCategory": "rvalue",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0x1193538",
+      "kind": "FunctionDecl",
+      "loc": {
+        "offset": 31,
+        "line": 5,
+        "col": 6,
+        "tokLen": 7
+      },
+      "range": {
+        "begin": {
+          "offset": 31,
+          "col": 6,
+          "tokLen": 7
+        },
+        "end": {
+          "offset": 31,
+          "col": 6,
+          "tokLen": 7
+        }
+      },
+      "isImplicit": true,
+      "name": "memmove",
+      "mangledName": "memmove",
+      "type": {
+        "qualType": "void *(void *, const void *, unsigned long)"
+      },
+      "storageClass": "extern",
+      "inner": [
+        {
+          "id": "0x1193630",
+          "kind": "ParmVarDecl",
+          "loc": {},
+          "range": {
+            "begin": {},
+            "end": {}
+          },
+          "type": {
+            "qualType": "void *"
+          }
+        },
+        {
+          "id": "0x1193698",
+          "kind": "ParmVarDecl",
+          "loc": {},
+          "range": {
+            "begin": {},
+            "end": {}
+          },
+          "type": {
+            "qualType": "const void *"
+          }
+        },
+        {
+          "id": "0x1193700",
+          "kind": "ParmVarDecl",
+          "loc": {},
+          "range": {
+            "begin": {},
+            "end": {}
+          },
+          "type": {
+            "qualType": "unsigned long"
+          }
+        },
+        {
+          "id": "0x11935d8",
+          "kind": "BuiltinAttr",
+          "range": {
+            "begin": {},
+            "end": {}
+          },
+          "implicit": true
+        }
+      ]
+    },
+    {
+      "id": "0x1193780",
+      "kind": "FunctionDecl",
+      "loc": {
+        "offset": 31,
+        "col": 6,
+        "tokLen": 7
+      },
+      "range": {
+        "begin": {
+          "offset": 26,
+          "col": 1,
+          "tokLen": 4
+        },
+        "end": {
+          "offset": 47,
+          "line": 7,
+          "col": 1,
+          "tokLen": 1
+        }
+      },
+      "previousDecl": "0x1193538",
+      "name": "memmove",
+      "mangledName": "memmove",
+      "type": {
+        "qualType": "void ()"
+      },
+      "inner": [
+        {
+          "id": "0x1193c68",
+          "kind": "CompoundStmt",
+          "range": {
+            "begin": {
+              "offset": 40,
+              "line": 5,
+              "col": 15,
+              "tokLen": 1
+            },
+            "end": {
+              "offset": 47,
+              "line": 7,
+              "col": 1,
+              "tokLen": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "0x1193ca0",
+      "kind": "FunctionDecl",
+      "loc": {
+        "offset": 54,
+        "line": 9,
+        "col": 5,
+        "tokLen": 4
+      },
+      "range": {
+        "begin": {
+          "offset": 50,
+          "col": 1,
+          "tokLen": 3
+        },
+        "end": {
+          "offset": 81,
+          "line": 12,
+          "col": 1,
+          "tokLen": 1
+        }
+      },
+      "name": "main",
+      "mangledName": "main",
+      "type": {
+        "qualType": "int ()"
+      },
+      "inner": [
+        {
+          "id": "0x1193d70",
+          "kind": "CompoundStmt",
+          "range": {
+            "begin": {
+              "offset": 60,
+              "line": 9,
+              "col": 11,
+              "tokLen": 1
+            },
+            "end": {
+              "offset": 81,
+              "line": 12,
+              "col": 1,
+              "tokLen": 1
+            }
+          },
+          "inner": [
+            {
+              "id": "0x1193d60",
+              "kind": "ReturnStmt",
+              "range": {
+                "begin": {
+                  "offset": 71,
+                  "line": 11,
+                  "col": 5,
+                  "tokLen": 6
+                },
+                "end": {
+                  "offset": 78,
+                  "col": 12,
+                  "tokLen": 1
+                }
+              },
+              "inner": [
+                {
+                  "id": "0x1193d40",
+                  "kind": "IntegerLiteral",
+                  "range": {
+                    "begin": {
+                      "offset": 78,
+                      "col": 12,
+                      "tokLen": 1
+                    },
+                    "end": {
+                      "offset": 78,
+                      "col": 12,
+                      "tokLen": 1
+                    }
+                  },
+                  "type": {
+                    "qualType": "int"
+                  },
+                  "valueCategory": "rvalue",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

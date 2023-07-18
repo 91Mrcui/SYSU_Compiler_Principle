@@ -1,0 +1,7 @@
+( export PATH=~/sysu/bin:$PATH CPATH=~/sysu/inclue:$CPATH LIBRARY_PATH=~/sysu/lib:$LIBRARY_PATH LD_LIBRARY_PATH=~/sysu/lib:$LD_LIBRARY_PATH  && clang -E tester/functional/000_main.sysu.c|clang -cc1 -ast-dump=json| sysu-generator )
+cmake --build ~/sysu/build -t install
+
+
+( export PATH=$HOME/sysu/bin:$PATH   CPATH=$HOME/sysu/include:$CPATH   LIBRARY_PATH=$HOME/sysu/lib:$LIBRARY_PATH   LD_LIBRARY_PATH=$HOME/sysu/lib:$LD_LIBRARY_PATH &&   clang -E tester/functional/000_main.sysu.c |   clang -cc1 -O0 -S -emit-llvm )
+
+clang -Xclang -ast-dump -fsyntax-only tmp.sysu.c

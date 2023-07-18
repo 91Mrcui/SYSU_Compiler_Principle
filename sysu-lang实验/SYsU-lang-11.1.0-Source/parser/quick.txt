@@ -1,0 +1,11 @@
+cmake --build ~/sysu/build -t install
+
+clang -Xclang -ast-dump -fsyntax-only tmp.sysu.c
+
+cat tmp.sysu.c | clang -cc1 -dump-tokens 2>&1 | ~/sysu/bin/sysu-parser
+
+( export PATH=~/sysu/bin:$PATH CPATH=~/sysu/include:$CPATH LD_LIBRARY_PATH=~/sysu/lib:$LD_LIBRARY_PATH && sysu-preprocessor tmp.sysu.c |  clang -cc1 -dump-tokens 2>&1| sysu-parser )
+
+
+/root/sysu/bin/sysu-preprocessor tester/function_test2022/95_float.sysu.c | clang -cc1 -ast-dump=json
+/root/sysu/bin/sysu-preprocessor tester/function_test2022/95_float.sysu.c | clang -cc1 -dump-tokens 2>&1 | /root/sysu/bin/sysu-parser
